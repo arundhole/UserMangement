@@ -73,7 +73,7 @@ public class PasswordController
 	@GetMapping("/home")
 	public String welcome()
 	{
-		return "welcome home";
+		return "welcome Aumnics...!";
 	}
 	 
 	
