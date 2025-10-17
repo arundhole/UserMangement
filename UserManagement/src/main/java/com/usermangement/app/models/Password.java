@@ -12,8 +12,9 @@ import javax.persistence.TemporalType;
 
 import lombok.Data;
 @Entity
+@Data
 @Table(name="password")
-public @Data class Password 
+public  class Password 
 {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
